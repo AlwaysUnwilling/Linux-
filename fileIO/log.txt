@@ -1,0 +1,4 @@
+hello world:printf
+hello world:fprintf
+hello world:printf
+hello world:fprintf
