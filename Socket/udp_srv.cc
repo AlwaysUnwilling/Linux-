@@ -28,7 +28,7 @@ int main(int argc,char* argv[])
         std::string peer_ip;
         uint16_t peer_port;
         CHECK_RET(srv_sock.Recv(&buf,&peer_ip,&port));//接收对端数据
-        std::cout<<"client["<<peer_ip<<":"<<peer_port<<"] say: "<<buf<<std::endl;
+        std::cout<< "client["<<peer_ip<<":"<<peer_port<<"] say: "<<buf<<std::endl;
          //发送数据
         buf.clear();//清空buf
         std::cout<<"server say: ";
