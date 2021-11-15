@@ -12,8 +12,11 @@ int main(int argc,char* argv[])
         std::cout<<"Usage: ./udp_cli ip port\n";
         return -1;
     }
+    std::cout<<argv[1]<<std::endl;
+    std::cout<<argv[2]<<std::endl;
     std::string srv_ip=argv[1];
     uint16_t srv_port=std::stoi(argv[2]);
+    std::cout<<argv[2]<<std::endl;
     UdpSocket cli_sock;
     //创建套接字
     CHECK_RET(cli_sock.Socket());
