@@ -172,4 +172,5 @@ void QuickSortNor(int* a,int begin,int end)
             StackPush(&st,right);
         }
     }
+    StackDestroy(&st);
 }
