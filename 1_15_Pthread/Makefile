@@ -1,0 +1,5 @@
+pthreadctr:pthreadctr.c
+	gcc -o $@ $^ -lpthread
+.PHONY:clean
+clean:
+	rm -f pthreadctr
