@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/Lg/VScode",
+            "binaryPath": "/home/Lg/VScode/test",
+            "binaryArgs": []
+        }
+    ]
+}
