@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/home/Lg/myGit/Linux-/7_18_MyShell'
+gcc -o myshell myshell.c
+make: Leaving directory `/home/Lg/myGit/Linux-/7_18_MyShell'
+ 
