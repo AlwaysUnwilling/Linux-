@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/home/Lg/myGit/Linux-/7_30_Pthread'
+g++ -o PthreadCond PthreadCond.cc -lpthread	
+make: Leaving directory `/home/Lg/myGit/Linux-/7_30_Pthread'
+ 
